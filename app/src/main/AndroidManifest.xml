@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.danielsanso.favyourneighbour12">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".logIn" />
+        <activity android:name=".registerActivity" />
+        <activity android:name=".Main" />
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".comentarioActivity"
+            android:theme="@style/AppTheme.PopComentario" />
+        <activity
+            android:name=".FavorActivity"
+            android:theme="@style/AppTheme.PopComentario" />
+        <activity
+            android:name=".AveriaActivity"
+            android:theme="@style/AppTheme.PopComentario" />
+        <activity android:name=".CalendarioActivity"
+            android:theme="@style/AppTheme.PopComentario"></activity>
+    </application>
+
+</manifest>
